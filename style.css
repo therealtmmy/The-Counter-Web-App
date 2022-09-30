@@ -1,0 +1,52 @@
+body {
+    display: grid;
+    place-content: center;
+    background-image: url(/template.jpg);
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#save-btn {
+    margin-top: 5em;
+    background-color: green;
+    margin-bottom: 0em;
+}
+
+
+#decrement-btn {
+    margin-top: 1em;
+    background-color: blue;
+}
+
+button {
+    place-self: center;
+    border: none;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 3em;
+    color: white;
+    background-color: darkred;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+}
